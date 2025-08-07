@@ -14,10 +14,10 @@ export default function Home() {
     <div>
       <HeroSection />
       <ServicesBanner />
-      <div style={{ backgroundColor: '#0F0F12'}}>
+      <div style={{ backgroundColor: "#0F0F12" }}>
         <Grid
           container
-          spacing={8}
+          spacing={{ xs: 2, sm: 4, md: 8, lg: 15 }}
           justifyContent="center"
           sx={{ maxWidth: 1240, margin: "auto" }}
         >
@@ -31,7 +31,7 @@ export default function Home() {
 
         <Grid
           container
-          spacing={8}
+          spacing={{ xs: 2, sm: 4, md: 8, lg: 15 }}
           justifyContent="center"
           sx={{ maxWidth: 1240, margin: "auto", mt: 4 }}
         >

@@ -16,8 +16,6 @@ const items = [
 ];
 
 const ServicesBanner = () => {
-  // const theme = useTheme();
-
   return (
     <Box
       sx={{
@@ -31,10 +29,11 @@ const ServicesBanner = () => {
         sx={{
           display: "flex",
           flexWrap: "wrap",
-          justifyContent: "left",
+          justifyContent: { xs: "center", sm: "flex-start" },
           alignItems: "center",
-          gap: 2,
+          gap: { xs: 1.5, sm: 2, md: 3 },
           backgroundColor: "#121113",
+          px: { xs: 2, sm: 4 },
         }}
       >
         {items.map((item, index) => (
@@ -45,11 +44,22 @@ const ServicesBanner = () => {
                 fontFamily: "'Space Grotesk', sans-serif",
                 fontWeight: 300,
                 fontStyle: "normal",
-                fontSize: "58px",
-                lineHeight: "81px",
+                fontSize: {
+                  xs: "1.5rem",
+                  sm: "2rem",
+                  md: "3rem",
+                  lg: "3.625rem",
+                },
+                lineHeight: {
+                  xs: "2rem",
+                  sm: "2.5rem",
+                  md: "3.5rem",
+                  lg: "5rem",
+                },
                 letterSpacing: 0,
                 verticalAlign: "middle",
                 color: "#484848",
+                whiteSpace: "nowrap",
               }}
             >
               {item}
@@ -58,8 +68,12 @@ const ServicesBanner = () => {
             {item !== "Illustrat" && item !== "Interactiv" && (
               <Image
                 src={span}
-                alt="Logo"
-                className="max-w-[30px] max-h-[30px]"
+                alt="Separator"
+                style={{
+                  maxWidth: "20px",
+                  maxHeight: "20px",
+                  objectFit: "contain",
+                }}
               />
             )}
           </React.Fragment>
@@ -69,16 +83,15 @@ const ServicesBanner = () => {
       <Typography
         sx={{
           color: "#fff",
-          marginTop: 10,
-          fontSize: "20px",
+          marginTop: { xs: 6, md: 10 },
+          fontSize: { xs: "16px", md: "20px" },
           fontWeight: 400,
           fontFamily: "'Space Grotesk', sans-serif",
-          paddingBottom: 10,
-          
+          paddingBottom: { xs: 6, md: 10 },
         }}
       >
         En savoir plus{" "}
-        <Typography component="span" sx={{ color: "#FF5C39"}}>
+        <Typography component="span" sx={{ color: "#FF5C39" }}>
           ✷
         </Typography>
       </Typography>

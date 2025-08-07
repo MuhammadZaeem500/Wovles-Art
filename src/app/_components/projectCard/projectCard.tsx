@@ -12,10 +12,13 @@ const ProjectCard: FC<ProjectCardProps> = ({ title, imageUrl }) => {
   return (
     <Box
       sx={{
-        width: 600,
-        height: 800,
+        width: "100%",
+        maxWidth: { xs: "100%", sm: 500, md: 600 },
+        height: "auto",
         borderRadius: 2,
-        mt:10,
+        overflow: "hidden",
+        mt: { xs: 4, md: 10 },
+        mx: "auto",
       }}
     >
       <Image
@@ -23,7 +26,12 @@ const ProjectCard: FC<ProjectCardProps> = ({ title, imageUrl }) => {
         alt={title}
         width={600}
         height={800}
-        style={{ objectFit: "cover", opacity: 1 }}
+        style={{
+          width: "100%",
+          height: "auto",
+          objectFit: "cover",
+          display: "block",
+        }}
       />
     </Box>
   );

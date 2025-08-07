@@ -72,8 +72,8 @@ const AboutProjectSection = () => {
               variant="h2"
               sx={{
                 fontSize: {
-                  xs: "2.5rem",
-                  sm: "3.5rem",
+                  xs: "1.5rem",
+                  sm: "2.5rem",
                   md: "4.5rem",
                   lg: "5.5rem",
                   xl: "6.5rem",
