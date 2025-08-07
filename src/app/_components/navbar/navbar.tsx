@@ -7,8 +7,8 @@ import {
   Drawer,
   List,
   ListItemText,
-  useTheme,
-  useMediaQuery,
+  // useTheme,
+  // useMediaQuery,
 } from "@mui/material";
 import Capa from "../../_assests/Vector.svg";
 import Image from "next/image";
@@ -21,8 +21,8 @@ interface NavbarProps {
 }
 
 const Navbar = ({ mobileOpen, handleDrawerToggle }: NavbarProps) => {
-  const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  // const theme = useTheme();
+  // const isMobile = useMediaQuery(theme.breakpoints.down("md"));
 
   const drawer = (
     <Box

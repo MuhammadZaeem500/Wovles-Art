@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import { Box, Typography, useTheme } from "@mui/material";
+import { Box, Typography } from "@mui/material";
 import span from "../../_assests/span.svg";
 import Image from "next/image";
 
@@ -16,7 +16,7 @@ const items = [
 ];
 
 const ServicesBanner = () => {
-  const theme = useTheme();
+  // const theme = useTheme();
 
   return (
     <Box

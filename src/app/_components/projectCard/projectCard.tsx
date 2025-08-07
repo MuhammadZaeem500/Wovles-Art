@@ -5,7 +5,7 @@ import Box from "@mui/material/Box";
 
 interface ProjectCardProps {
   title: string;
-  imageUrl: any;
+  imageUrl: string;
 }
 
 const ProjectCard: FC<ProjectCardProps> = ({ title, imageUrl }) => {
