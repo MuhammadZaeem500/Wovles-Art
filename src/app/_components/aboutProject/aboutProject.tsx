@@ -8,6 +8,7 @@ const AboutProjectSection = () => {
     { name: "Dribbble", href: "#" },
     { name: "Linkedin", href: "#" },
   ];
+  const currentYear = new Date().getFullYear();
 
   return (
     <Box
@@ -139,7 +140,7 @@ const AboutProjectSection = () => {
                 fontFamily: "'Space Grotesk', sans-serif",
               }}
             >
-              Wolvesart©2022
+              Wolvesart©{currentYear}
             </Typography>
             <Link
               href="#"

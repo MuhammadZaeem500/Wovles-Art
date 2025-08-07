@@ -7,8 +7,9 @@ export default function CenteredOrangeButton() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor: '#0F0F12',
-        pb:"100px"
+        backgroundColor: "#0F0F12",
+        pb: { xs: 6, sm: 8, md: 12 }, 
+        marginTop: { xs: 4, sm: 6, md: 10 }, 
       }}
     >
       <Button
@@ -18,6 +19,11 @@ export default function CenteredOrangeButton() {
           borderRadius: "12px",
           color: "black",
           fontFamily: "'Space Grotesk', sans-serif",
+          fontSize: { xs: "0.85rem", sm: "1rem", md: "1.1rem" }, 
+          textTransform: "none",
+          "&:hover": {
+            bgcolor: "#e64a1f", 
+          },
         }}
       >
         Voir tous les projets
