@@ -11,7 +11,7 @@ import div3 from "../app/_assests/div-3.svg";
 
 export default function Home() {
   return (
-    <div>
+    <div style={{ backgroundColor: "#0F0F12" }}>
       <HeroSection />
       <ServicesBanner />
       <div style={{ backgroundColor: "#0F0F12" }}>

@@ -24,7 +24,7 @@ const Navbar = ({ mobileOpen, handleDrawerToggle }: NavbarProps) => {
       sx={{
         width: 250,
         height: "100%",
-        backgroundColor: "#000",
+        backgroundColor: "#0F0F12",
         color: "#fff",
         display: "flex",
         flexDirection: "column",

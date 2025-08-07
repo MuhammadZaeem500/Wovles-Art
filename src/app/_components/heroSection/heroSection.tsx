@@ -19,6 +19,7 @@ const HeroSection = () => {
         alignItems: "center",
         justifyContent: "center",
         padding: { xs: 2, md: 4 },
+        backgroundColor: "#0F0F12",
       }}
     >
       <Box sx={{ width: "100%", height: "100%" }}>

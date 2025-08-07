@@ -82,8 +82,7 @@ const AboutProjectSection = () => {
                 lineHeight: 0.9,
                 letterSpacing: "-0.02em",
                 color: "#ff5722",
-                fontFamily:
-                  '"Inter", "Roboto", "Helvetica", "Arial", sans-serif',
+                fontFamily: "'Space Grotesk', sans-serif",
                 transition: "transform 0.3s ease",
               }}
             >
@@ -137,6 +136,7 @@ const AboutProjectSection = () => {
                 color: "#666",
                 fontSize: { xs: "0.9rem", md: "1rem" },
                 fontWeight: 400,
+                fontFamily: "'Space Grotesk', sans-serif",
               }}
             >
               Wolvesart©2022
@@ -147,6 +147,7 @@ const AboutProjectSection = () => {
                 color: "#666",
                 textDecoration: "none",
                 fontSize: { xs: "0.9rem", md: "1rem" },
+                fontFamily: "'Space Grotesk', sans-serif",
                 fontWeight: 400,
                 "&:hover": {
                   color: "#fff",
@@ -174,6 +175,7 @@ const AboutProjectSection = () => {
                   textDecoration: "none",
                   fontSize: { xs: "1rem", md: "1.1rem" },
                   fontWeight: 200,
+                  fontFamily: "'Space Grotesk', sans-serif",
                   transition: "all 0.3s ease",
                   "&:hover": {
                     color: "#ff5722",
