@@ -90,7 +90,6 @@ const AboutProjectSection = () => {
               Commencer un projet
             </Typography>
 
-            {/* Arrow */}
             <Box
               className="arrow"
               sx={{
@@ -106,7 +105,6 @@ const AboutProjectSection = () => {
           </Box>
         </Box>
 
-        {/* Divider Line */}
         <Box
           sx={{
             width: "100%",

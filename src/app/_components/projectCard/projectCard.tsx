@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import { FC } from "react";
 import Box from "@mui/material/Box";
